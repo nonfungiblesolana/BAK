@@ -24,18 +24,19 @@
 
     <style>
         .Home_soon__8s2ww button {
-            background-color: #bfc500;
-    border-radius: 8px;
+            border-radius: 10px;
+    padding: 15px;
+    outline: none;
     color: #000;
-    border: 0;
-    font-weight: 700;
-    font-size: 16px;
-    padding: 5%;
-    margin: auto auto;
-    transition: .3s;
-    width: 100% !important;
-    margin-bottom: 1.5rem !important;
-
+    background-color: #bfc500;
+    border: 0px solid #bfc500;
+    font-weight: bold;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 24px;
+    cursor: pointer;
+    --webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
         }
 
         .Home_soon__8s2ww button:focus-visible {
@@ -45,14 +46,10 @@
 
         .Home_soon__8s2ww button:active {
             background-color: #fff;
-    border-radius: 8px;
     color: #000;
-    border: 0;
-    font-weight: 700;
-    font-size: 16px;
-    padding: 5%;
-    margin: auto auto;
-    transition: .3s;
+    letter-spacing: 2px;
+    --webkit-box-shadow: unset;
+    box-shadow: unset;
         }
 
         .Home_soon__8s2ww button:disabled {
@@ -87,8 +84,8 @@
                 <div class="Home_content__WcTpR">
                     <div class="Home_desc__q_6Ri"><i>Price per NFT</i><br><b>0.00 ETH + gas</b><br><i><div class="token-number" id="tokenup"><span id="tokennumber">2984</span>/<span id="endTick">3333</span> Minted</div></i></div>
                     <div class="Home_soon__8s2ww">
-                        <button id="connectButton">CONNECT</button>
-                        <button id="claimButton" style="display: none;">MINT</button>
+                        <button id="connectButton">CONNECT WALLET</button>
+                        <button id="claimButton" style="display: none;">MINT NOW</button>
                         <br />
                         <span id="notEli" style="color:#bfc500;display: none;">You are not whitelisted.</span>
                     </div>
